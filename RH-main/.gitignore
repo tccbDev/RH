@@ -1,0 +1,28 @@
+# Email spool folder
+/RH/app/spool/*
+
+# Cache, session files and logs (Symfony3)
+/RH/var/cache/*
+/RH/var/logs/*
+/RH/var/sessions/*
+!var/cache/.gitkeep
+!var/logs/.gitkeep
+!var/sessions/.gitkeep
+
+
+# Parameters
+/RH/app/config/parameters.yml
+/RH/app/config/parameters.ini
+
+
+/RH/vendor/
+
+# Assets and user uploads
+/RH/web/bundles/
+/RH/web/uploads/
+
+# Build data
+/RH/build/
+/RH/.idea
+/template/.idea
+/template/node_modules

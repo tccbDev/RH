@@ -1,0 +1,153 @@
+user_homepage:
+    path:     /index
+    defaults: { _controller: UserBundle:Default:index }
+user_register:
+    path:     /register
+    defaults: { _controller: UserBundle:Default:Resgiter }
+user_Login:
+    path:     /Login
+    defaults: { _controller: UserBundle:Default:Login }
+user_register_ad:
+    path:     /admin/register
+    defaults: { _controller: UserBundle:Default:ResgiterAdmin }
+ajouter_projet:
+    path:     /AjouterProjet
+    defaults: { _controller: UserBundle:Default:AddPro }
+ListeSalarie_projet:
+    path:     /ListeSalarie
+    defaults: { _controller: UserBundle:Default:listeDesSalarie }
+ListeProjet_salarie:
+    path:     /ListeProjetsUser/{id}
+    defaults: { _controller: UserBundle:Default:getListProjectUser }
+Listeprojets:
+    path:     /ListeProjets
+    defaults: { _controller: UserBundle:Default:ListProjects }
+ListePostes:
+    path:     /ListePostes
+    defaults: { _controller: UserBundle:Default:listeDesPostes }
+GetPosteByName:
+    path:     /GetPosteByName
+    defaults: { _controller: UserBundle:Default:getPosteByName }
+GetProjetByName:
+    path:     /GetProjetByName
+    defaults: { _controller: UserBundle:Default:getProjectByName }
+AddAffectation:
+    path:     /AddAffectation
+    defaults: { _controller: UserBundle:Default:AddAffectation }
+modifier_user:
+    path:     /EditUser
+    defaults: { _controller: UserBundle:Default:editUser }
+GetUserAffectations:
+    path:     /Affectations/{id}
+    defaults: { _controller: UserBundle:Default:getUserAffectations }
+sendEmail:
+    path:     /sendEmail
+    defaults: { _controller: UserBundle:Default:sendEmail }
+List_Affectation_Admin_Non_termine:
+    path:     /NonTermineAffectation
+    defaults: { _controller: UserBundle:Default:ListeAffectationsAdmin }
+Add_Salaire:
+    path:     /AddSalaire
+    defaults: { _controller: UserBundle:Default:AddSalaire }
+getProjectDetails:
+    path:     /getProjectDetails/{id}
+    defaults: { _controller: UserBundle:Default:getProjectDetails }
+getMyProjectsUser:
+    path:     /getMyProjectsUser/{id}
+    defaults: { _controller: UserBundle:Default:GetMyProjectsUser }
+getMyInfos:
+    path:     /getMyInfos/{id}
+    defaults: { _controller: UserBundle:Default:GetUserInfo }
+getWorkingUsersToday:
+    path:     /getWorkingUsers/{id}
+    defaults: { _controller: UserBundle:Default:getUserworkingCurrentDay }
+ValiderDate:
+    path:     /ValiderDate
+    defaults: { _controller: UserBundle:Default:ValidateDate }
+DashboardSalarie:
+    path:     /DashboardSalarie/{id}
+    defaults: { _controller: UserBundle:Default:DashboardSalarie }
+ProjetEquipe:
+    path:     /ProjetEquipe/{id}
+    defaults: { _controller: UserBundle:Default:GetEquipe }
+EditAffectationDate:
+    path:     /EditAffectationDate
+    defaults: { _controller: UserBundle:Default:EditAffectationDate }
+EditAffectationSalaire:
+    path:     /EditAffectationSalaire
+    defaults: { _controller: UserBundle:Default:EditAffectationSalaire }
+EditStatut:
+    path:     /EditStatut
+    defaults: { _controller: UserBundle:Default:editStatut }
+AddjustifT:
+    path:     /AddjustifT
+    defaults: { _controller: UserBundle:Default:addJustifTR }
+GetjustifsT:
+    path:     /GetjustifsT
+    defaults: { _controller: UserBundle:Default:GetJustifsTR }
+GetjustifT:
+    path:     /GetjustifT
+    defaults: { _controller: UserBundle:Default:GetJustifTR }
+AddJustifNDF:
+    path:     /AddJustifNDF
+    defaults: { _controller: UserBundle:Default:addJustifNDF }
+GetJustifsNDF:
+    path:     /GetJustifsNDF
+    defaults: { _controller: UserBundle:Default:GetJustifsNDF }
+GetJustifNDF:
+    path:     /GetJustifNDF
+    defaults: { _controller: UserBundle:Default:GetJustifNDF }
+AddDevisFree:
+    path:     /AddDevisFree
+    defaults: { _controller: UserBundle:Default:addDevisFree }
+GetDevisFree:
+    path:     /GetDevisFreeAction
+    defaults: { _controller: UserBundle:Default:GetDevisFree }
+GetDeviFree:
+    path:     /GetDeviFree
+    defaults: { _controller: UserBundle:Default:GetDeviFree }
+AddFactureFree:
+    path:     /AddFactureFree
+    defaults: { _controller: UserBundle:Default:addFactureFree }
+GetFacturesFree:
+    path:     /GetFacturesFree
+    defaults: { _controller: UserBundle:Default:GetFacturesFree }
+GetFactureFree:
+    path:     /GetFactureFree
+    defaults: { _controller: UserBundle:Default:GetFactureFree }
+ListJustifsTR:
+    path:     /ListJustifsTR
+    defaults: { _controller: UserBundle:Default:ListeJustifsTR }
+ListeJustifsNDF:
+    path:     /ListeJustifsNDF
+    defaults: { _controller: UserBundle:Default:ListeJustifsNDF }
+ListeDevis:
+    path:     /ListeDevis
+    defaults: { _controller: UserBundle:Default:ListeDevis }
+ListeFacture:
+    path:     /ListeFacture
+    defaults: { _controller: UserBundle:Default:ListeFacture }
+DashboardAdmin:
+    path:     /DashboardAdmin
+    defaults: { _controller: UserBundle:Default:DashboardAdmin }
+SignContract:
+    path:     /signContract/{id}
+    defaults: { _controller: UserBundle:Default:signContract }
+ListOfManagers:
+    path:     /ListOfManagers
+    defaults: { _controller: UserBundle:Default:ListOfManager }
+editFreeLancer:
+    path:     /editFreeLancer
+    defaults: { _controller: UserBundle:Default:editFreeLancer }
+signNDA:
+    path:     /signNDA/{id}
+    defaults: { _controller: UserBundle:Default:signNDA }
+AllSalarie:
+    path:     /AllSalarie
+    defaults: { _controller: UserBundle:Default:AllSalarie }
+Userinfo:
+    path:     /Userinfo/{id}
+    defaults: { _controller: UserBundle:Default:GetUserinformation }
+GetUserinformationnumbers:
+    path:     /GetUserinformationnumbers/{id}
+    defaults: { _controller: UserBundle:Default:GetUserinformationnumbers }
